@@ -8,14 +8,23 @@ The purpose of this Software Requirement Specification (SRS) document is to outl
 The Assist-Pack app is a personal assistant application designed to help legal professionals, educators, coaches, doctors, and surgeons manage their daily tasks, schedules, and follow-ups. The application will be developed using React Native and will be fully functional offline, with no need for an internet connection.
 
 ## 1.3 Definitions, Acronyms, and AbbreviationsSRS: 
-Software Requirements SpecificationReact Native: A JavaScript framework for building mobile applications for iOS and AndroidCSV: Comma Separated ValuesDevOps: Development and Operations, an approach to software development that emphasizes collaboration and automation.
+Software Requirements Specification
+- React Native: A JavaScript framework for building mobile applications for iOS and Android
+- CSV: Comma Separated Values
+- DevOps: Development and Operations, an approach to software development that emphasizes collaboration and automation.
 
 ## 1.4 ReferencesReact Native documentation: 
 https://reactnative.dev/docs/getting-startedSoftware Engineering Standards and Guidelines: https://www.iso.org/isoiec-25010-standards.html
 
 ## 1.5 Overview
 The remainder of this document is organized as follows:  
-Chapter 2: Overall Description - Provides a high-level description of the product, including its functions, user classes, operating environment, and constraints.Chapter 3: System Features - Describes the main features of the Assist-Pack app in detail.Chapter 4: External Interface Requirements - Details the user, hardware, software, and communication interfaces for the app.Chapter 5: Non-Functional Requirements - Outlines the performance, safety, security, and other quality attributes for the app.Chapter 6: Other Requirements - Covers additional requirements, such as the app running in the background and CSV data export.Chapter 7: Future Releases - Presents potential enhancements and integrations for future releases of the Assist-Pack app.Chapter 8: Appendices - Provides supplementary information, including a glossary, use case diagrams, and mockups or wireframes.
+- Chapter 2: Overall Description - Provides a high-level description of the product, including its functions, user classes, operating environment, and constraints.Chapter 
+- 3: System Features - Describes the main features of the Assist-Pack app in detail.Chapter 
+- 4: External Interface Requirements - Details the user, hardware, software, and communication interfaces for the app.Chapter 
+- 5: Non-Functional Requirements - Outlines the performance, safety, security, and other quality attributes for the app.Chapter 
+- 6: Other Requirements - Covers additional requirements, such as the app running in the background and CSV data export.Chapter 
+- 7: Future Releases - Presents potential enhancements and integrations for future releases of the Assist-Pack app.Chapter 
+- 8: Appendices - Provides supplementary information, including a glossary, use case diagrams, and mockups or wireframes.
 
 # Overall Description
 
@@ -26,7 +35,11 @@ Assist-Pack is a standalone mobile application designed to help busy professiona
 The main functions of the Assist-Pack app include:User Profile CreationMaster Data ManagementAssignments, ToDo Lists, and Notes ManagementReminders and AlertsSummary of TasksBackup and Restore
 
 ## 2.3 User Classes and Characteristics
-The primary user classes for the Assist-Pack app are:Legal professionals (lawyers, judges)Educators (teachers, tutors)CoachesMedical professionals (doctors, surgeons)
+The primary user classes for the Assist-Pack app are:
+- Legal professionals (lawyers, judges)
+- Educators (teachers, tutors)
+- Coaches
+- Medical professionals (doctors, surgeons)
 
 These users typically have busy schedules and require a reliable, easy-to-use tool to manage their daily tasks and appointments. They may have varying levels of technical expertise but will appreciate an intuitive interface with seamless navigation.
 
@@ -34,10 +47,18 @@ These users typically have busy schedules and require a reliable, easy-to-use to
 Assist-Pack will be developed using React Native, making it compatible with both iOS and Android devices. The app will function offline, with no need for an internet connection. It will run on smartphones and, in future releases, may support tablets, smartwatches, and vehicle tabs with custom interfaces.
 
 ## 2.5 Design and Implementation Constraints
-The following design and implementation constraints apply to the Assist-Pack app:The app must be developed using React Native.The app must function offline without requiring an internet connection.User data must be stored securely on the device.The app should be optimized for performance, ensuring fast load times and minimal battery usage.The user interface should be designed for ease of use, with minimal taps required for core functions.
+The following design and implementation constraints apply to the Assist-Pack app:
+- The app must be developed using React Native.
+- The app must function offline without requiring an internet connection.
+- User data must be stored securely on the device.
+- The app should be optimized for performance, ensuring fast load times and minimal battery usage.
+- The user interface should be designed for ease of use, with minimal taps required for core functions.
 
 ## 2.6 Assumptions and Dependencies
-The successful development of the Assist-Pack app depends on the following assumptions:The React Native framework will continue to be supported and maintained by its developers.The target user groups (legal professionals, educators, coaches, and medical professionals) have access to smartphones running iOS or Android and can install the app.Users will provide the necessary information for creating a profile and customizing their experience with the app.Future releases of the app may have additional dependencies, such as integration with third-party services like Google Calendar or email and messaging platforms.
+The successful development of the Assist-Pack app depends on the following assumptions:
+- The React Native framework will continue to be supported and maintained by its developers.
+- The target user groups (legal professionals, educators, coaches, and medical professionals) have access to smartphones running iOS or Android and can install the app.Users will provide the necessary information for creating a profile and customizing their experience with the app.
+- Future releases of the app may have additional dependencies, such as integration with third-party services like Google Calendar or email and messaging platforms.
 
 # System Features
 
@@ -120,8 +141,15 @@ As part of the DevOps approach, the Assist-Pack app's development and operations
 
 # Appendix
 
-## 8.1 GlossaryReact Native: 
-A popular open-source framework for building mobile applications using JavaScript and React, allowing for cross-platform compatibility with both iOS and Android devices.CSV (Comma Separated Values): A widely-used, plain-text file format for storing tabular data, such as spreadsheets or databases. CSV files can be easily imported and exported using a variety of software tools.DevOps: A set of practices that combines software development and IT operations to shorten the development life cycle and provide continuous delivery of high-quality software.GitHub: A web-based platform for version control and collaboration, allowing developers to manage and share their code, track changes, and collaborate on projects.Localization: The process of adapting a product or content to a specific locale, including translating text, adjusting user interfaces, and ensuring compliance with local regulations and cultural preferences.Master Data: Pre-populated data that provides a foundation for users to build upon, such as common tasks, categories, or statuses.Delta Backup: A type of backup that only includes changes made since the last backup, resulting in smaller and faster backups compared to a full backup.Full Backup: A type of backup that includes all data and files, providing a comprehensive snapshot of the system at a specific point in time.
+## 8.1 Glossary
+- React Native: A popular open-source framework for building mobile applications using JavaScript and React, allowing for cross-platform compatibility with both iOS and Android devices.
+- CSV (Comma Separated Values): A widely-used, plain-text file format for storing tabular data, such as spreadsheets or databases. CSV files can be easily imported and exported using a variety of software tools.
+- DevOps: A set of practices that combines software development and IT operations to shorten the development life cycle and provide continuous delivery of high-quality software.
+- GitHub: A web-based platform for version control and collaboration, allowing developers to manage and share their code, track changes, and collaborate on projects.
+- Localization: The process of adapting a product or content to a specific locale, including translating text, adjusting user interfaces, and ensuring compliance with local regulations and cultural preferences.
+- Master Data: Pre-populated data that provides a foundation for users to build upon, such as common tasks, categories, or statuses.
+- Delta Backup: A type of backup that only includes changes made since the last backup, resulting in smaller and faster backups compared to a full backup.
+- Full Backup: A type of backup that includes all data and files, providing a comprehensive snapshot of the system at a specific point in time.
 
 
 
