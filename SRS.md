@@ -13,8 +13,9 @@ Software Requirements Specification
 - CSV: Comma Separated Values
 - DevOps: Development and Operations, an approach to software development that emphasizes collaboration and automation.
 
-## 1.4 ReferencesReact Native documentation: 
-https://reactnative.dev/docs/getting-startedSoftware Engineering Standards and Guidelines: https://www.iso.org/isoiec-25010-standards.html
+## 1.4 References
+- React Native documentation: https://reactnative.dev/docs/getting-started
+- Software Engineering Standards and Guidelines: https://www.iso.org/isoiec-25010-standards.html
 
 ## 1.5 Overview
 The remainder of this document is organized as follows:  
