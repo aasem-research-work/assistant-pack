@@ -1,1 +1,1 @@
-# assistant-pack
+# Assistant Pack
